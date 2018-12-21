@@ -1,0 +1,221 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=gb2312">
+<META NAME="ROBOTS" CONTENT="NOINDEX,NOFOLLOW">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 11">
+<meta name=Originator content="Microsoft Word 11">
+<title>中学信息学《数据结构》习题及参考答案</title>
+<!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>南京廖华</o:Author>
+  <o:LastAuthor>南京廖华</o:LastAuthor>
+  <o:Revision>6</o:Revision>
+  <o:TotalTime>59</o:TotalTime>
+  <o:Created>2018/6/5 19:59:29</o:Created>
+  <o:LastSaved>2018/6/5 19:59:29</o:LastSaved>
+  <o:Pages>1</o:Pages>
+  <o:Words>101</o:Words>
+  <o:Characters>576</o:Characters>
+  <o:Company>南京廖华</o:Company>
+  <o:Lines>4</o:Lines>
+  <o:Paragraphs>1</o:Paragraphs>
+  <o:CharactersWithSpaces>676</o:CharactersWithSpaces>
+  <o:Version>11.9999</o:Version>
+ </o:DocumentProperties>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:View>Print</w:View>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <w:BrowserLevel>MicrosoftInternetExplorer4</w:BrowserLevel>
+ </w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" LatentStyleCount="156">
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 135135232 16 0 262145 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:16.0pt;
+	mso-bidi-font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+h1
+	{mso-style-next:正文;
+	margin-top:17.0pt;
+	margin-right:0cm;
+	margin-bottom:16.5pt;
+	margin-left:0cm;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	line-height:240%;
+	mso-pagination:lines-together;
+	page-break-after:avoid;
+	mso-outline-level:1;
+	font-size:22.0pt;
+	font-family:"Times New Roman";
+	mso-font-kerning:22.0pt;
+	font-weight:bold;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:center;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	border:none;
+	mso-border-bottom-alt:solid windowtext .75pt;
+	padding:0cm;
+	mso-padding-alt:0cm 0cm 1.0pt 0cm;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:none;
+	tab-stops:center 207.65pt right 415.3pt;
+	layout-grid-mode:char;
+	font-size:9.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:宋体;
+	mso-font-kerning:1.0pt;}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;
+	text-underline:single;}
+p
+	{mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;
+@page Section1
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 89.85pt 72.0pt 89.85pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:42.55pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.Section1
+	{page:Section1;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-ansi-language:#0400;
+	mso-fareast-language:#0400;
+	mso-bidi-language:#0400;}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:shapelayout v:ext="edit">
+  <o:idmap v:ext="edit" data="1"/>
+ </o:shapelayout></xml><![endif]-->
+</head>
+
+<body lang=ZH-CN link=blue vlink=purple style='tab-interval:21.0pt;text-justify-trim:punctuation'>
+
+<div class=Section1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal><b style='mso-bidi-font-weight:normal'><span style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";color:#993300'>《中学信息学《数据结构》习题及参考答案》来自南京廖华</span></b><b
+style='mso-bidi-font-weight:normal'><span lang=EN-US style='font-size:12.0pt;color:#993300'><o:p></o:p></span></b></p>
+
+<p class=MsoNormal align=left style='text-align:left;line-height:150%;margin-top:3.6pt;'><span lang=EN-US style='font-size:9.0pt;line-height:150%'><a href="http://www.njliaohua.com/lhs_ffxi1yfs1j1ri1y9hmk1cjn2p1vkg49hnfhcu54gjugjmpabod0klk_0.html"><span lang=EN-US style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";text-decoration:none;text-underline:none'><span lang=EN-US>点这里，有很多篇《中学信息学《数据结构》习题及参考答案》</span></span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left'><span style='font-size:12.0pt;font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";color:#993300'>在线阅读本文：</span><span lang=EN-US style='font-size:12.0pt;color:#999999'><a href="http://www.njliaohua.com/lhd_4vns3019wx02ra61xnbq_10.html"><span
+style='text-decoration:none;text-underline:none'>http://www.njliaohua.com/lhd_4vns3019wx02ra61xnbq_10.html</span></a><o:p></o:p></span></p>
+
+<p class=MsoNormal align=center style='margin-top:15.6pt;margin-right:0cm;margin-bottom:23.4pt;margin-left:0cm;mso-para-margin-top:1.0gd;mso-para-margin-right:
+0cm;mso-para-margin-bottom:1.5gd;mso-para-margin-left:0cm;text-align:center'><b style='mso-bidi-font-weight:normal'><span style='font-size:22.0pt;font-family:
+宋体'>中学信息学《数据结构》习题及参考答案<span lang=EN-US><o:p></o:p></span></span></b></p>
+
+<div style='margin-top:2.5pt;margin-bottom:2.5pt'>
+
+<div style='margin-top:7.8pt;margin-right:0cm;margin-bottom:12.45pt;margin-left:0cm;mso-para-margin-top:.5gd;mso-para-margin-right:0cm;mso-para-margin-bottom:.5gd;mso-para-margin-left:0cm;text-align:justify;text-justify:inter-ideograph;text-indent:32.0pt;mso-char-indent-count:2.0;line-height:22.0pt;mso-line-height-rule:exactly;mso-pagination:none;font-size:16.0pt;mso-bidi-font-family:"Times New Roman";mso-font-kerning:1.0pt'><p>n/2┘+1]中； </p><p>  （4）定义一组整数int[i]=（2i+1+（-1）i）/3，I=1，2，t-1，直至int[t]〉└n/2┘+1，利用折半插入依次将small[int[i+1]]至small[int[i]+1]插入至x数组中去。例如，若n=21，则得到一组整数int[1]=1，int[2]=3，int[3]=5，int[4]=11，由此small数组中元素应按如下次序：small[3]，small[2]， small[5]， small[4]， small[11]， small[10]，?，small[6]，插入到x数组中去。 </p><p>  试以n=5和n=11手工执行归并插入排序，并计算排序过程中所作关键字比较的次数。  </p><p>算法设计题  </p><p>10.23②  试以L.r[k+1]作为监视哨改写教科书10.2.1节中给出的直接插入排序算法。其中，L.r[1..k]为待排序记录且k〈MAXSIZE。 </p><p>10.24③  试编写教科书10.2.2节中所述2-路插入排序的算法。 ◆ 10.25③  试编写教科书10.2.2节中所述链表插入的算法。 </p><p>   10.26②  如下述改写教科书10.3节中所述起泡算法；将1.4.3节中算法中用以起控制作用的布尔变量change改为一个整型变量，指示每一趟排序中进行交换的最后一个记录的位置，并以它作为下一趟起泡排序循环终止的控制值。 </p><p>10.27②  编写一个双向起泡的排序算法，即相邻两遍向相反方向起泡。 </p><p>10.28④  修改10.27题中要求的算法请考虑如何避免将算法写成两个并在一起的相似的单向起泡的算法段。 </p><p>10.29④  按10.6题所述编写奇偶交换排序的算法。 ◆ 10.30④  按下述原则编写快排的非递归算法： </p><p>（1）一趟排序之后，若子序列已有序（无交换），则不参加排序，否则先对长度较短的子序列进行排序，且将另一子序列的上、下界入栈保存； </p><p>（2）若待排记录数≤3，则不再进行分割，而是直接进行比较排序。 </p><p>10.31④  编写算法，对n个关键字取整数值的记录序列进行整理，以使所有关键字为负值的记录排在关键字为非负值的记录之前，要求： </p><p>（1）采用顺序存储结构，至多使用一个记录的辅助存储空间； （2）算法的时间复杂度为O（n）； </p><p>（3）讨论算法中记录的最大移动次数。 </p><p>◆ 10.32⑤  荷兰国旗问题：设有一个仅由红、白、蓝三种颜色的条块组成的条块序列。</p><p>请编写一个时间复杂度为O（n）的算法，使得这些条块按红、白、蓝的顺序排好，即排成荷兰国旗图案。 </p><p>10.33③  试以单链表为存储结构实现简单选择排序的算法。 </p><p>◆ 10.34③  已知（k1，k2?kp）是堆，则可以写一个时间复杂度为O（logn）的算法将（k1，k2?kp ，kp+1）调整为堆。试编写“从p=1起，逐个插入建堆”的算法，并讨论由此方法建堆的时间复杂度。 </p><p>10.35③  假设定义堆为满足如下性质的完全三叉树：（1）空树为堆；（2）根结点的值不小于所有子数根的值，且所有子树均为堆。编写利用上述定义的堆尽心个排序的算法，并分析推导算法的时间复杂度。 </p><p>10.36④  可按如下所述实现归并排序：假设序列中有k个长度为≤l的有序子序列。利用过程merge（参见教科书10.5节）对他们进行两两归并，得到┌k/2┐个长度≤2l的有序子序列，称为一趟归并排序。反复调用一趟归并排序过程，使有序子序列的长度自l=1开始成倍地增加，直至使整个序列成为一个有序序列。试对序列实现上述归并排序的递推算法，并分</p><p>析你的算法的时间复杂度。 </p><p>10.37④  采用链表存储结构，重做10.36题。 </p><p>◆10.38③  2-路归并排序的另一策略是，先对待排序序列扫描一遍，找出并划分为若干个最大有序子列，将这些子序列作为初始归并段。试写一个算法在链表结构上实现这一策略。 10.39⑤  已知两个有序序列（a1，a2，?，am）和（am+1，am+2，?，an），并且其中一个序列的记录个数少于s，且s=└ ┘。试写一个算法，用O（n）时间和O（1）附加空间完成这两个有序序列的归并。 </p><p>10.40⑤  假设两个序列各有至少s个记录，重做10.39题。 ◆ 10.41④  假设有1000个关键字为小于10000的整数的记录序列，请设计一种排序方法，    要 求以尽可能少的比较次数和移动次数实现排序，并按你的设计编出算法。 ◆  10.42④  序列的“中值记录”指的是：如果将此序列排序后，它是第└n/2 ┘个记</p><p>录，试写一个求中值记录的算法。 ◆ 10.43③  已知记录序列a[1…n]中的关键字各不相同，可按如下所述实现计数排列，</p><p>另设数组c[1…n]，对每个记录a[i]，统计序列中关键字比它小的记录个数存于c[i]，则c[i]=0的记录必为关键字最小的记录，然后依c[i]值的大小对a中记录进行重新排列，试编写算法实现上述排列方法。 </p><p>10.44③  假设含n个记录的序列中，其所有关键字为值介于v个w之间的整数，且其中很多关键字的值是相同的。则可按如下方法进行排序，另设数组number[v..w]且令number[i]统计关键字取整数i的记录数，之后按number重排序列以达到有序。试编写算法实现上述排列方法，并讨论此种方法的优缺点。 </p><p>10.45③  试编写算法，借助“计数”实现基数排序。 </p><p>10.46③  序列b的每个元素是一个记录，每个记录占的存储量比其关键字占的存储量大的多，因而记录的移动操作是极为费时的。试写出一个算法，将序列b的排序结果放入序列a中，且每个记录只拷贝一次而无其他移动。你的算法可以调用第10章中给出的任何排序算法。思考：当记录存于链表中时，若希望利用快速排序算法对关键字排序，从而最后实现链表的排序，如何模仿上述方法实现？  </p><p>                 </p><p>  </p><p>第十一章 外部排序 </p><p>◆ 11.1①  假设某文件经内部排序得到100个初始归并段，试问： </p><p>（1）若要使多路归并三趟完成排序，则应取归并的路数至少为多少？ </p><p>（2）假若操作系统要求一个程序同时可用的输入、输出文件的总数不超过13，则按多路归并至少需几趟可完成排序？如果限定这个趟数，则可取的最低路数是多少？ ◆ 11.2②  假设一次I/O的物理块大小为150，每次可对750和记录进行内部排序，那</p><p>么，对含有150000个记录的磁盘文件进行4-路平衡归并排序时，需进行多少次I/O？ 11.3①  “败者树”中的“败者”指的是什么？若利用败者树求k个树中的最大值，在某次比较中得到a>b，那么谁是败者？“败者树”与“堆”有何区别？ 11.4②  手工执行算法k-merge，追踪败者树变化过程。假设初始归并段为 （10，15，16，20，31，39，+∞）； （9，18，20，25，36，48，+∞）； （20，22，40，50，67，79，+∞）； （6，15，25，34，42，46，+∞）； （12，37，48，55，+∞）； （84，95，+∞） </p><p>11.5②  为什么置换—选择排序能得到平均长度位2w的初始归并段？能否依置换—插入或置换等策略建立类似的排序方法？ </p><p>11.6②  设内存有大小为6个记录的区域可供内部排序之用，文件的关键字序列为（51，49，39，46，38，29，14，61，15，301，48，52，3，63，27，4，13，89，24，46，58，33，76）。试列出： </p><p>（1）用第10章中的内部排序方法求出的初始归并段； </p><p>（2）用置换—选择排序得出的初始归并段，并写出FI，W和FO的变化过程； （3）用上面给出的数据手工执行算法repl-selection。 </p><p>11.7①  试问输入文件在哪种状态下经由置换-选择排序得到的初始归并段长度最长？其最长的长度是多少？ </p><p>11.8①  试问输入文件在哪种状态下经由置换-选择排序得到的初始归并段长度最短？其最短的长度是多少？ </p><p>11.9①  假若一个经由置换-选择排序得到的输出文件再次进行置换-选择排序，试问该文件将产生什么变化？ </p><p>11.10①  在输入文件为逆序的情况下，由11.13题所描述的自然选择排序得到的初始归并段的平均长度为多少？ </p><p>◆ 11.11②  已知某文件经过置换排序之后，得到长度分别为47，9，39，18，4，12，</p><p>23和7的八个初始归并段。试为3路平衡归并设计一个读写外存次数最少的归并方案，并求出读写外存的次数。 </p><p>11.12②  已知有31个长度不等的初始归并段，其中8段长度为2，8段长度为3，7段长度为5，5段长度为12，3段长度为20（单位均为物理块）。请为此设计一个5-路最佳方案，并计算总的（归并所需的）读/写外存的次数。  </p><p>算法设计题  </p><p>11.13④ 假设在进行置换-选择排序时，可另开辟一个和工作区的容量相同的辅助存储区（称储备库）。当输入的记录关键字小于刚输出的MINIMX记录时，不将它存入工作区，而暂存在储备库中，接着输入下一记录，依次类推，直至储备库满时不再进行输入，而只从工作区中选择记录输出直至工作区空为止，至此得到一个初始归并段。之后，再将储备库中记录传送至工作区，重新开始选择排序，这种方法称自然选择排序，一般情况下可求得比置换-选择排序更长的归并段。 </p><p>（1） 试对11.4节中文件例子进行自然选择排序，求初始归并段。 （2） 编写自然选择排序的算法。                                   </p><p>   </p><p> 第12章   文件 </p><p>12.1①  试比较顺序文件、索引文件和索引顺序文件各有什么特点。 12.2①  已知下列ISAM文件： </p><p>  </p><p>T1  win Win   T2，1  xy1   T5，3   zan    T3，1    zom    T5，2   </p><p>T2    R（was）       R（wen）      R（wil）       R（win）   T3 R（yes）        R（you）      R（yum）      R（zan）    </p><p>T4 R（xyl）   ∧      R（zom）   ∧       R（xan）  T4，1   </p><p>T5 R（wou） T4，3    R（ziu）   T4，2     R（xer）  T5，1     </p><p>试叙述在文件中查找记录R（xan）和R（xzi）的过程。 </p><p>12.3①  试画出在教科书12.4.1节中图12.10（a）所示文件的状态下，插入R89，R91，删除R99，R92之后的文件状态。 </p><p>12.4②  直接存取文件为什么不用教科书9.3.3节中给出的链地址法存储结构而要按桶散列？桶的大小m是如何确定的？ </p><p>◆ 12.5②  假设物理块（桶）的大小为100，若要求对含有30000个记录的直接存取文件进行一次按关键字查询时，读外存次数的平均值不超过2，则问该直接存取文件应设多大？ </p><p>12.6①  试叙述在教科书12.6.1节中图12.15（a）所示文件中查找“计算机”专业选修“丙”课程的学生名单的过程。一般来说，查询条件为两个关键字条件的“与”是，按哪个次关键字的链查找比较好？ </p><p>    12.7①  简单比较文件的多重表和倒排表组织方式各有什么优缺点。 </p><p>12.8③  请为图书馆中如下所示的部分目录建立一个倒排文件。要求该文件允许用户按书名查找或按作者查找。现有的外存为磁盘，主文件按索引顺序组织，每个柱面有6道，设柱面溢出区占2道。 </p><p>      书    名       分类号       书号       出版社     藏书量      版本 作者  甲       数学分析         A          002        ABC         5           2  甲       高等代数         A          015        ABC         3           1 乙       普通物理         B          030        ABC         5           2 乙       理论物理         B          042        ABC         2           1 甲       微分方程         A          027        ABC         2           1 乙      数学分析         A          004        ABC         3           1 丙      微分方程         A          023        ABC         2           1 乙      普通化学         C          044        RST         3           1  戊   分析化学     Ｃ         057        RST          2           1 </p></div>
+
+<p style='margin-top:7.8pt;margin-right:0cm;margin-bottom:12.45pt;margin-left:0cm;mso-para-margin-top:.5gd;mso-para-margin-right:0cm;mso-para-margin-bottom:.8gd;mso-para-margin-left:0cm;text-align:justify;text-justify:inter-ideograph;text-indent:32.0pt;mso-char-indent-count:2.0;line-height:24.0pt;mso-line-height-rule:exactly;mso-pagination:none'><span lang=EN-US style='font-size:16.0pt;mso-bidi-font-family:"Times New Roman";mso-font-kerning:1.0pt'><o:p>&nbsp;</o:p></span></p>
+
+<p class=MsoFooter align=center style='text-align:center'><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";color:#993300'>南京廖华</span><span lang=EN-US><a
+href="http://www.njliaohua.com/">http://www.njliaohua.com/</a></span></p>
+
+<p class=MsoFooter align=center style='text-align:center'><span
+style='font-family:宋体;mso-ascii-font-family:"Times New Roman";mso-hansi-font-family:"Times New Roman";color:#993300'>免费文档下载</span><span lang=EN-US style='font-size:16.0pt;mso-bidi-font-size:10.0pt;color:#993300'><o:p></o:p></span></p>
+
+</div></div>
+</body></html>
